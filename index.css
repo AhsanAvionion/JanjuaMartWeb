@@ -1,0 +1,57 @@
+body {
+  background-image: url('background.jpg');
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  text-align:center;
+}
+h2 {
+  color: blue;
+  font-family: verdana;
+  font-size: 100%;
+  text-align:center;
+}
+h2 {
+  color: blue;
+  font-family: verdana;
+  font-size: 100%;
+  text-align:center;
+}
+.button { 
+height: 100px; 
+width: 200px; 
+font-size: 200%;
+text-align:center;
+
+}
+
+.buttonFile{ 
+height: 100px; 
+width: 100px; 
+font-size: 100%;
+text-align:center;
+border-style: solid;
+background-color: blue;
+}
+
+a:link, a:visited {
+  background-color: green;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+form {
+  color: blue;
+  font-family: verdana;
+  font-size: 100%;
+  text-align:center;
+}
+p {
+  color: black;
+  text-align:center;
+} 
