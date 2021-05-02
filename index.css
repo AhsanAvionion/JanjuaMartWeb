@@ -27,7 +27,6 @@ h2 {
 p {
   color: black;
   font-family: verdana;
-  font-size: 100%;
   text-align:center;
 }
 
@@ -37,10 +36,13 @@ height: 100px;
 width: 200px; 
 font-size: 200%;
 text-align:center;
-
+background-color: red;
 }
 
 
+.button1{ 
+background-color: green;
+}
 
 .buttonFile{ 
 height: 100px; 
@@ -66,10 +68,5 @@ a:link, a:visited {
 form {
   color: blue;
   font-family: verdana;
-  font-size: 100%;
   text-align:center;
 }
-p {
-  color: black;
-  text-align:center;
-} 
