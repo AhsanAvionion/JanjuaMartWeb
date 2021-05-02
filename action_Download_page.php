@@ -20,8 +20,9 @@ echo '<!DOCTYPE html>
 <link rel="stylesheet" href="download.css">
 <h1>Welcome To Janjua Mart</h1>
 
-<p>----------------------------------------- DOWNLOAD SECTION -----------------------------------------</p>';
 
+
+<p> List of Files </p>';
 
 if (sizeof($a) > 2){
 $x = 2;
@@ -47,7 +48,10 @@ echo '</a><br>
 
   $x++;}
 
-echo '</body>
+echo '<p> ---------- List Completed ---------- </p>
+<b><a href=index.html target="_blank">Home Page</a></b>
+
+</body>
 </html> 
 ';
 } //end of if (sizeof($a) > 2){
