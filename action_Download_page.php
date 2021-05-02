@@ -1,7 +1,12 @@
 <?php
-
 if ($_POST["psw"] == "1234"){
+if ($_POST["uname"] != ""){
+$dir = "shareWithCustomer/".$_POST["uname"]."/";
+}
+else
+{
 $dir = "shareWithCustomer/";
+}
 
 // Sort in ascending order - this is default
 $a = scandir($dir);
@@ -18,12 +23,16 @@ echo '<!DOCTYPE html>
 <p>----------------------------------------- DOWNLOAD SECTION -----------------------------------------</p>';
 
 
-
+if (sizeof($a) > 2){
 $x = 2;
 
 while($x <= sizeof($a)-1) {
 
 echo '<a href="shareWithCustomer/';
+if ($_POST["uname"] != ""){
+echo $_POST["uname"];
+echo "/";
+}
 
 echo $a[$x];
 
@@ -41,9 +50,14 @@ echo '</a><br>
 echo '</body>
 </html> 
 ';
+} //end of if (sizeof($a) > 2){
+else{
+echo "<h2> Empty Folder :-( </h>";
+}
+
 } // end of if (password correct)
 else {
-echo '<h> Wrong Password Entered';
+echo '<h> Wrong Password Entered </h>';
 }
 
 ?> 

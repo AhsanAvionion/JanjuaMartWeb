@@ -36,11 +36,17 @@ height: 100px;
 width: 200px; 
 font-size: 200%;
 text-align:center;
+  color: white;
 background-color: red;
 }
 
 
 .button1{ 
+height: 100px; 
+width: 200px; 
+font-size: 200%;
+text-align:center;
+  color: white;
 background-color: green;
 }
 

@@ -9,6 +9,20 @@ font-size: 300%;
 text-align:center;
 
 }
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  text-align:center;
+}
+
+h2 {
+  color: white;
+  font-family: verdana;
+  background-color: red;
+  font-size: 300%;
+  text-align:center;
+}
 
 
 
